@@ -5,6 +5,7 @@ Just a reminder so you remember how classes and regular groups are selected.
 h1 {
 }
 */
+
 body {
     margin: 0;
     
@@ -42,22 +43,28 @@ h2 {
     background-color: #1F2937;
     display: flex;
     flex: 1;
+    justify-content: space-evenly;
+    padding: 50px;
+    gap: 10px
 
 }
 
-.FirstSection {
-    color:  blue;
-}
 
 h1 {
     font-size: 48px;
     font-weight: extra-bold;
-    color: #F9FAF8
+    color: #F9FAF8;
+    padding: 0px;
+    margin: 0px;
 }
 
 h4 {
     font-size: 18px;
+    font-weight: 100;
     color: #E5E7EB;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 5px;
 }
 
 .LeftSide {
@@ -67,6 +74,9 @@ h4 {
     justify-content: center;
     padding-left: 50px;
     padding-right: 20px;
+    flex: 1;
+    justify-content: flex-start;
+
 }
 
 
@@ -75,12 +85,25 @@ h4 {
     font-weight: bold;
     background-color: #3882f6;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-self: flex-start;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
 .RightSide {
     color: #E5E7EB;
-    background-color: #6D747D;}
+    background-color: #6D747D;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
 
 .RandomInfo {
     color: #1F2937;
@@ -133,6 +156,8 @@ p {
     color:  blue;
     display: flex;
     flex: 1;
+    background-color: #3882f6;
+
 }
 
 .BlueBox {
@@ -158,6 +183,9 @@ h3 {
 
 .RightSide2 {
     color:  blue;
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
 
 .button2 {
@@ -166,11 +194,20 @@ h3 {
     border-color: white;
     border-radius: 5px;
     font-weight: bold;
+    margin: 40px;
+    padding: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .Footer {
     color:  blue;
     background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 15px;
+    
 }
 
 .FooterText {
