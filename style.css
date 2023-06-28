@@ -105,6 +105,7 @@ h4 {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
 
 .RandomInfo {
@@ -182,6 +183,8 @@ p {
     padding-left: 100px;
     padding-right: 100px;
     justify-content: space-evenly;
+    margin: 40px;
+    border-radius: 10px;
 
 }
 
