@@ -5,17 +5,34 @@ Just a reminder so you remember how classes and regular groups are selected.
 h1 {
 }
 */
-
+body {
+    margin: 0;
+    
+}
 h2 {
-    color:  blue;
+    color:  #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    flex: 1;
+    margin: 0%;
+    justify-content: space-between;
+}
+
+.HeaderRight {
+    display: flex;
+    flex: 1; 
+    justify-content: ;
 }
 
 .Logo {
-    color:  blue;
+    font-size: 24px;
+    
 }
 
 .HeaderLink {
-    color:  blue;
+    color:  #E5E7EB;
+    font-size: 18px;
+
 }
 
 .FirstSection {
@@ -76,6 +93,10 @@ p {
 }
 
 .LeftSide2 {
+    color:  blue;
+}
+
+h3 {
     color:  blue;
 }
 
