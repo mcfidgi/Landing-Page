@@ -21,10 +21,13 @@ h2 {
 .HeaderRight {
     display: flex;
     flex: 1; 
+    gap: 15px;
+    justify-content: end;
 }
 
 .Logo {
     font-size: 24px;
+    
     
 }
 
@@ -37,6 +40,8 @@ h2 {
 .FirstSection {
     color:  blue;
     background-color: #1F2937;
+    display: flex;
+    flex: 1;
 
 }
 
@@ -57,11 +62,17 @@ h4 {
 
 .LeftSide {
     color:  blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 20px;
 }
 
 
 .button1 {
     color:  #E5E7EB;
+    font-weight: bold;
     background-color: #3882f6;
     border-radius: 5px;
 
@@ -79,6 +90,8 @@ h4 {
 
 .SecondSection {
     color:  blue;
+    display: flex;
+    flex: 1;
 }
 
 .ImageSubsection {
@@ -118,6 +131,8 @@ p {
 
 .FourthSection {
     color:  blue;
+    display: flex;
+    flex: 1;
 }
 
 .BlueBox {
@@ -150,6 +165,7 @@ h3 {
     background-color: #3882f6;
     border-color: white;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .Footer {
