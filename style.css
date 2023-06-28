@@ -21,7 +21,6 @@ h2 {
 .HeaderRight {
     display: flex;
     flex: 1; 
-    justify-content: ;
 }
 
 .Logo {
@@ -64,6 +63,7 @@ h4 {
 .button1 {
     color:  #E5E7EB;
     background-color: #3882f6;
+    border-radius: 5px;
 
 }
 
@@ -149,6 +149,7 @@ h3 {
     color:  #E5E7EB;
     background-color: #3882f6;
     border-color: white;
+    border-radius: 5px;
 }
 
 .Footer {
